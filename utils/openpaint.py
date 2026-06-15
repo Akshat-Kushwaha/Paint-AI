@@ -24,4 +24,4 @@ def open_paint():
         pt.press('enter')
         time.sleep(3)
         print("Opened new Paint")
-    return paint
+    

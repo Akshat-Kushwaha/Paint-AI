@@ -1,12 +1,14 @@
 import pygetwindow as gw
 import pyautogui as pt
+import openpaint
 
-# Find the Notepad window
-notepad = gw.getWindowsWithTitle('Untitled - Paint')[0]
+# Find the Paint window
+openpaint()
+paint = gw.getWindowsWithTitle('Untitled - Paint')[0]
 
-if notepad:
+if paint:
     # pt.press('alt')
-    # notepad.activate()
-    notepad.moveTo(0, 0)
-    notepad.resizeTo(800, 600)
-    print(f"Moved '{notepad.title}' to the top-left corner.")
+    # paint.activate()
+    paint.moveTo(0, 0)
+    paint.resizeTo(800, 600)
+    print(f"Moved '{paint.title}' to the top-left corner.")
