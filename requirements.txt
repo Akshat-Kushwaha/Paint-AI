@@ -1,0 +1,6 @@
+numpy==2.4.6
+opencv_contrib_python==4.10.0.84
+opencv_python==4.10.0.84
+pyautogui==0.9.54
+pygetwindow==0.0.9
+Requests==2.34.2
